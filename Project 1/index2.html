@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About Web Development</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#0a3d62;
+color:white;
+padding:20px 40px;
+position:sticky;
+top:0;
+}
+
+header h1{
+font-size:24px;
+display: flex;
+justify-content: center;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+background-size:cover;
+background-position:center;
+color:white;
+height:300px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+position:relative;
+}
+
+.hero h2{
+font-size:38px;
+}
+
+.next-arrow{
+position:absolute;
+right:30px;
+bottom:30px;
+font-size:40px;
+text-decoration:none;
+color:white;
+background:rgba(255,255,255,0.2);
+padding:10px 18px;
+border-radius:50%;
+transition:.3s;
+}
+
+.next-arrow:hover{
+background:#ffd32a;
+color:#0a3d62;
+transform:translateX(8px);
+}
+
+.back-arrow{
+position:absolute;
+left:30px;
+bottom:30px;
+font-size:40px;
+text-decoration:none;
+color:white;
+background:rgba(255,255,255,0.2);
+padding:10px 18px;
+border-radius:50%;
+transition:.3s;
+}
+
+.back-arrow:hover{
+background:#ffd32a;
+color:#0a3d62;
+transform:translateX(-8px);
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#0a3d62;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Web Development Global Impact</h1>
+</header>
+
+<section class="hero">
+
+<h2>About Web Development</h2>
+
+<a href="index.html" class="back-arrow">←</a>
+
+<a href="history.html" class="next-arrow">→</a>
+
+</section>
+
+<div class="container">
+
+<div class="card">
+
+<h2>What is Web Development?</h2>
+
+<p>
+Web development is the process of creating and maintaining websites and web applications.
+It involves designing layouts, writing code, managing databases, and ensuring that websites
+function correctly across different devices and browsers.
+</p>
+
+<p>
+Web developers use technologies such as HTML, CSS, and JavaScript to build interactive
+experiences that allow users to access information and services online.
+</p>
+
+<p>
+Today, web development connects people globally by supporting online businesses,
+education platforms, communication systems, entertainment services, and government operations.
+</p>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Web Development Project</p>
+</footer>
+
+</body>
+</html>
